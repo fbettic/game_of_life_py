@@ -23,7 +23,7 @@ def main():
     canvas = wn.getcanvas()
 
     def exit():
-        wn.bye
+        wn.bye()
 
     # boton para resetear las celulas
     button = tkinter.Button(canvas.master, text='Reset', command=game_of_life_board.reset)
